@@ -1,0 +1,38 @@
+body{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.background-branco{
+  width: 350px; /* ajuste a largura conforme necessário */
+  height: 50%;
+  margin: 0 auto; /* centralize a div na tela */
+  background-color: white;
+  padding: 16px; /* adicione algum espaço interno para a imagem e texto */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* adicione uma sombra para destacar a div */
+  border-radius: 20px;
+  margin-top: 90px;
+  font-family: outfit, sans-serif;
+}
+
+.qrcode{
+  display: block; /* tornar a imagem um elemento de bloco para que ele respeite as margens */
+  margin: 0 auto; /* centralizar a imagem horizontalmente dentro da div */
+  width:300px; /* ajuste a largura conforme necessário */
+  height: auto; /* permitir que a altura da imagem seja calculada automaticamente */
+  border-radius: 11px;
+}
+
+.titulo{
+  text-align: center; /* centralizar o texto horizontalmente dentro da div */
+  margin-top: 20px; /* adicione algum espaço acima do texto */
+  background-color: white;
+  font-size: 23px;
+  
+}
+
+.conteudo{
+  text-align: center; /* centralizar o texto horizontalmente dentro da div */
+  margin-top: 20px; /* adicione algum espaço acima do texto */
+  background-color: white;
+}
